@@ -1,0 +1,20 @@
+{
+  "name": "formbuilder",
+  "description": "Build, preview, edit, publish and analyze forms and surveys in your FormBuilder account, with in-chat form previews and response tables.",
+  "version": "1.1.0",
+  "author": {
+    "name": "FormBuilder",
+    "email": "support@formbuilder.com",
+    "url": "https://formbuilder.com"
+  },
+  "homepage": "https://formbuilder.com/developers",
+  "repository": "https://github.com/bluetickventures/formbuilder-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "forms",
+    "surveys",
+    "formbuilder",
+    "responses",
+    "webhooks"
+  ]
+}

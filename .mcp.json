@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "formbuilder": {
+      "type": "http",
+      "url": "https://api.formbuilder.com/mcp"
+    }
+  }
+}
