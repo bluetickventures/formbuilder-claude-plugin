@@ -1,7 +1,7 @@
 {
   "name": "formbuilder",
   "description": "Build, preview, edit, publish and analyze forms and surveys in your FormBuilder account, with in-chat form previews and response tables.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": {
     "name": "FormBuilder",
     "email": "support@formbuilder.com",
@@ -16,5 +16,7 @@
     "formbuilder",
     "responses",
     "webhooks"
-  ]
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://formbuilder.com/privacy"
 }

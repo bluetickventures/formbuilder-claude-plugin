@@ -29,4 +29,4 @@ Never collect passwords, authentication secrets or raw card credentials in ordin
 
 For the new workflow, retry uncertain writes with the exact same request_id and input. A replay reports the original result; get_form reports current state. On revision conflict, reread and review before using a new request ID. Never silently replace intervening human edits. For the legacy create_form tool, inspect the relevant form list before another create; duplicates are possible. Report errors and account limits plainly. Do not claim that returned response links grant another application access to private files. Existing credentials, plan limits and provider approvals are outside the plugin's installation.
 
-For an explicitly requested shell/API workflow using an existing separately configured token, see `reference/api.md`. The helper requires an existing key, defaults to a draft and never signs up.
+For REST API details, see `reference/api.md`. Do not ask for API tokens in conversation; the connector signs in through OAuth.

@@ -2,9 +2,9 @@
 
 The plugin normally uses OAuth through the native MCP client. The authenticated MCP endpoint is `https://api.formbuilder.com/mcp`; it exposes the draft lifecycle and validation tools, filtered response queries, and the legacy create/list/read/webhook tools. Use its live input/output schemas. Responses contain meaningful text and structured content; response reads include an untrusted-data explanation before their JSON text.
 
-## Explicit shell/API use
+## REST API scopes
 
-Only use the REST helper when the user has requested that workflow and already configured `FORMBUILDER_API_KEY` outside the conversation. `scripts/create_form.sh` requires this key, posts once to the fixed HTTPS API and creates a draft by default. Set `PUBLISH=true` only for explicit publication intent. No signup, automatic retry, alternate API host or key display is supported.
+For developers using the REST API with their own token configured outside the conversation. Never ask for or display a token in chat.
 
 | API | Required scope |
 |---|---|
@@ -24,4 +24,4 @@ Direct file APIs are REST capabilities, not advertised MCP tools. They return or
 
 ## Revision-checked agent workflow
 
-Prefer the new /api/v1/agent workflow for private drafts, editing, publication and filtered responses. See https://formbuilder.com/developers#agent-workflows and https://formbuilder.com/help/agent-permissions-and-safety for current schemas, explicit grants, request IDs, revision conflicts and restrictions. The legacy helper below has no retry protection.
+Prefer the new /api/v1/agent workflow for private drafts, editing, publication and filtered responses. See https://formbuilder.com/developers#agent-workflows and https://formbuilder.com/help/agent-permissions-and-safety for current schemas, explicit grants, request IDs, revision conflicts and restrictions.

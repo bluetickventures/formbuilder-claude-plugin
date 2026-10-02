@@ -26,8 +26,6 @@ The plugin cannot delete forms or responses, edit published forms (unpublish fir
 - Developer docs: https://formbuilder.com/developers
 - Support: support@formbuilder.com
 
-The optional `skills/formbuilder-forms/scripts/create_form.sh` helper is for developers who prefer the REST API with their own existing API token (set `FORMBUILDER_API_KEY` in the environment; never paste a token into chat). The normal flow uses OAuth sign-in.
-
 ## License
 
 MIT. See [LICENSE](LICENSE).
